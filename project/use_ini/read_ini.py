@@ -16,7 +16,7 @@ class deal_ini(object):
             'get_sections':self.get_sections,
             'get_section': self.get_section,
             'read_section_itme': self.read_section_itme,
-            'change': self.change
+            # 'change': self.change
         }
 
     def run(self):
@@ -41,17 +41,9 @@ class deal_ini(object):
     def read_section_itme(self):
         try:
             cfg = intro_conf(self.file_name)
-            result = {}
-            ids = []
-            section_itmes = cfg.items(self.section)
-            for name in self.names:
-                for section_itme in section_itmes:
-                    if eval(section_itme[1])['name']==name:
-                        ids.append(section_itme[0])
-            for id in ids:
-                result[id] = eval(cfg.get(self.section,id))
+            result = cfg.get(self.section, self.names)
         except Exception,e:
-            result = str(e)
+            result = e
         return result
 
     # def change(self):
@@ -66,7 +58,7 @@ class deal_ini(object):
     #         result = str(e)
     #     return result
 
-w = deal_ini(file_name='user.ini',type='read_section_itme',section='user',names=['张印','张印1'])
+w = deal_ini(file_name='user.ini',type='read_section_itme',section='user',names='PRODUCT_LIFECYCLE1')
 result = w.run()
 
 # curpath = os.path.dirname(__file__)
