@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1954c5b1-36c6-4cea-a136-90b17782cb9a" name="Default" comment="re">
-      <change afterPath="$PROJECT_DIR$/project/find_image/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/find_image/find.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/sort/Bubble_Sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/sort/__init__.py" afterDir="false" />
+    <list default="true" id="1954c5b1-36c6-4cea-a136-90b17782cb9a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/project/create_size_image/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/create_size_image/deal_pic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/find_image/similier_img.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/panpro_lan" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proclub_qinquan" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,6 +20,7 @@
     <SUITE FILE_PATH="coverage/my_project$xiancheng12_1.coverage" NAME="xiancheng12.1 Coverage Results" MODIFIED="1558949812852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/xiancheng" />
     <SUITE FILE_PATH="coverage/my_project$Bubble_Sort.coverage" NAME="Bubble_Sort Coverage Results" MODIFIED="1559716976434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/sort" />
     <SUITE FILE_PATH="coverage/my_project$html_re_out.coverage" NAME="html_re_out Coverage Results" MODIFIED="1559368153748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/RE" />
+    <SUITE FILE_PATH="coverage/my_project$similier_img.coverage" NAME="similier_img Coverage Results" MODIFIED="1559801377957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/find_image" />
     <SUITE FILE_PATH="coverage/my_project$RE__1_.coverage" NAME="RE (1) Coverage Results" MODIFIED="1559369633332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/RE" />
     <SUITE FILE_PATH="coverage/my_project$intro_config.coverage" NAME="intro_config Coverage Results" MODIFIED="1548386910713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/config" />
     <SUITE FILE_PATH="coverage/my_project$RE.coverage" NAME="RE Coverage Results" MODIFIED="1559005480396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/config" />
@@ -73,16 +71,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="find.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="find.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/find_image/find.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="360">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding>
                 <element signature="e#84#94#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deal_pic.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/create_size_image/deal_pic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="similier_img.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/find_image/similier_img.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+              <folding>
+                <element signature="e#83#114#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/matplotlib/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
@@ -96,38 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="xiecheng.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/xiecheng/xiecheng.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RE.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/RE/RE.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="900">
               <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="html_re_out.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/RE/html_re_out.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="31" column="43" selection-start-line="28" selection-end-line="31" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_django/my_django/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -162,6 +159,9 @@
         <option value="$PROJECT_DIR$/project/struct/SinCycLinkedlist.py" />
         <option value="$PROJECT_DIR$/project/sort/Bubble_Sort.py" />
         <option value="$PROJECT_DIR$/project/find_image/find.py" />
+        <option value="$PROJECT_DIR$/project/create_size_image/deal_oic.py" />
+        <option value="$PROJECT_DIR$/project/create_size_image/deal_pic.py" />
+        <option value="$PROJECT_DIR$/project/find_image/similier_img.py" />
       </list>
     </option>
   </component>
@@ -175,7 +175,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="333" />
+    <option name="x" value="334" />
     <option name="y" value="24" />
     <option name="width" value="1587" />
     <option name="height" value="1056" />
@@ -192,11 +192,6 @@
             <path>
               <item name="my_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_project" type="462c0819:PsiDirectoryNode" />
-              <item name="my_django" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my_project" type="b2602c69:ProjectViewProjectNode" />
@@ -240,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.find">
+  <component name="RunManager" selected="Python.similier_img">
     <configuration name="Bubble_Sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -255,25 +250,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/sort/Bubble_Sort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="RE (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="my_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/RE" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/RE/RE.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -317,6 +293,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="similier_img" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="my_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/find_image" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/find_image/similier_img.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="thread" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -337,19 +332,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.RE (1)" />
       <item itemvalue="Python.thread" />
       <item itemvalue="Python.linklist" />
       <item itemvalue="Python.Bubble_Sort" />
       <item itemvalue="Python.find" />
+      <item itemvalue="Python.similier_img" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.similier_img" />
         <item itemvalue="Python.find" />
         <item itemvalue="Python.Bubble_Sort" />
         <item itemvalue="Python.linklist" />
         <item itemvalue="Python.thread" />
-        <item itemvalue="Python.RE (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -392,26 +387,32 @@
       <option name="project" value="LOCAL" />
       <updated>1559704913213</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1">
+      <created>1559799071754</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559799071754</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="333" y="24" width="1587" height="1056" extended-state="4" />
-    <editor active="true" />
+    <frame x="334" y="24" width="1587" height="1056" extended-state="4" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32939914" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.47455752" />
+      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.2688053" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32964602" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.21681416" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.25884956" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32300884" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13851133" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32944983" />
+      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.32944983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Debug" order="2" visible="true" weight="0.32743362" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.32743362" />
       <window_info anchor="bottom" id="Favorites" order="6" side_tool="true" weight="0.32939914" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
@@ -434,7 +435,8 @@
     <MESSAGE value="修改ｐｙｔｈｏｎ环境" />
     <MESSAGE value="Merge branch 'master' of github.com:zhangwuxin/my_project&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="re" />
-    <option name="LAST_COMMIT_MESSAGE" value="re" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -459,6 +461,11 @@
           <line>11</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/find_image/similier_img.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -467,11 +474,16 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="12" />
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>H1</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>imsrc</expression-string>
         <language-id>Python</language-id>
@@ -505,27 +517,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/xiancheng/xiancheng12.1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/config/intro_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/config/user.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="18" selection-start-line="6" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/use_ini/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -774,10 +765,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/find_image/find.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="360">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding>
             <element signature="e#84#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/create_size_image/deal_pic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/matplotlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/find_image/similier_img.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding>
+            <element signature="e#83#114#0" expanded="true" />
           </folding>
         </state>
       </provider>
