@@ -26,7 +26,7 @@ class deal_ini(object):
         try:
             cfg = intro_conf(self.file_name)
             result = cfg.sections()
-        except Exception,e:
+        except Exception as e:
             result = str(e)
         return result
 
@@ -34,7 +34,7 @@ class deal_ini(object):
         try:
             cfg = intro_conf(self.file_name)
             result = cfg.items(self.section)
-        except Exception,e:
+        except Exception as e:
             result = str(e)
         return result
 
@@ -42,7 +42,7 @@ class deal_ini(object):
         try:
             cfg = intro_conf(self.file_name)
             result = cfg.get(self.section, self.names)
-        except Exception,e:
+        except Exception as e:
             result = e
         return result
 

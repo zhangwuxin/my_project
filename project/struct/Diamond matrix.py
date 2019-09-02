@@ -31,6 +31,6 @@ def create(height):
             j+=1
         i+=1
         j=0
-    print arr
+    print (arr)
 if __name__=='__main__':
     create(8)
