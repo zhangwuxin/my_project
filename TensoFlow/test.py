@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import tensorflow as tf
 # message = tf.constant("welcome")
 # with tf.compat.v1.Session() as sess:
